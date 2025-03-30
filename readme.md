@@ -1,7 +1,8 @@
 # Redis with Spring Boot
 
 
-[![My Skills](https://skillicons.dev/icons?i=azure,java,redis,kubernetes,docker,spring&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=azure,java,redis,kubernetes,docker,spring)](https://skillicons.dev)
+
 [![Generic badge](https://img.shields.io/badge/status-developing-yellow.svg)](/#/)
 
 ## 🔗 Links
