@@ -1,15 +1,36 @@
 # Redis with Spring Boot
 
+
+[![My Skills](https://skillicons.dev/icons?i=azure,java,redis,kubernetes,docker,spring&theme=light)](https://skillicons.dev)
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/luiza-andrade-ti/)  [![git](https://img.shields.io/badge/github-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/luizaandradeti/) 
+ 
+
 - [Redis with Spring Boot](#redis-with-spring-boot)
-- [Setup](#setup)
+- [Tech Stack](#tech-stack--)
     * [Redis](#redis)
 - [Hands on Redis](#hands-on-redis)
 
 
-# Requisites
-- acknowledges: Spring Boot/Java
-- Docker (https://docs.docker.com/get-docker/)
+## Tech Stack  
+
+**Acknowledges:**
+- Spring Boot/Java
+- Docker (https://docs.docker.com/get-docker/) 
 - SQL
+
+**Client tools:**
+- Postman
+- Azure account 
+
+**Development tools :** 
+- Java 17
+- IntelliJ
+- Docker
+- Eksctl
+
 
 ## Redis 
 
@@ -22,7 +43,7 @@ Vector database." </i>
 Redis can be used with lists, sets, maps, strings e others. 
 https://redis.io/docs/latest/develop/get-started/
 
-# Hands on Redis    
+## Hands on Redis
 Create an application using [Spring Initializr](https://start.spring.io/),
 
 As per picture below:
