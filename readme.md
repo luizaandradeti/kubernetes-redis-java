@@ -15,7 +15,7 @@
 - [Hands on Redis](#hands-on-redis)
 
 
-## Tech Stack  
+## Tech Stack
 
 **Acknowledges:**
 - Spring Boot/Java
