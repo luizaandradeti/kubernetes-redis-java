@@ -1,7 +1,8 @@
 # Redis with Spring Boot
 
+[![My Skills](https://skillicons.dev/icons?i=azure,java,redis,kubernetes,docker,spring)](https://skillicons.dev)
 
-[![My Skills](https://skillicons.dev/icons?i=azure,java,redis,kubernetes,docker,spring&theme=light)](https://skillicons.dev)
+[![Generic badge](https://img.shields.io/badge/status-developing-yellow.svg)](/#/)
 
 ## 🔗 Links
 
@@ -36,7 +37,7 @@
 
 <i>"Redis can be used as a database, cache, streaming engine, message broker, and more. The following quick start guides will show you how to use Redis for the following specific purposes:
 
-Data structure storei
+Data structure store
 Document database
 Vector database." </i>
 
@@ -50,9 +51,28 @@ As per picture below:
 
 ![Spring Initializr](imgs/spring_initializr.jpeg)
 
-
+[Docker](https://hub.docker.com/_/redis)
+[mvn](https://mvnrepository.com/artifact/com.github.javafaker/javafaker/1.0.2)
 
 ![Spring Initializr](imgs/APP.png)
 
+Run docker redis in terminal
 
+````
+docker pull redis:8.0-M04-alpine
+docker run -d -p 6379:6379 --name redis-local redis:8.0-M04-alpine
+````
+
+Turn on telnet:
+![telnet](imgs/telnet.png)
+
+Test connectivity in git bash: 
+
+```
+telnet localhost 6379
+```
+
+Set environment variables:
+
+![env](imgs/variables.png)
 
