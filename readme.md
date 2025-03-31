@@ -19,6 +19,8 @@
         + [Connection betwen Spring and Redis](#connection-betwen-spring-and-redis)
         + [Create a Redis class in the Java application](#create-a-redis-class-in-the-java-application)
         + [Cache enable](#cache-enable)
+        + [Results](#results)
+- [TO DO - Deploy in Azure Kubernetes](#to-do---deploy-in-azure-kubernetes)
 
 
 
@@ -89,7 +91,13 @@ telnet localhost 6379
 ### Connection betwen Spring and Redis
 Set environment variables:
 
-![env](imgs/variables.png)
+Set TTL in the application.properties
+
+```properties
+spring.application.name=azure
+spring.data.redis.host=localhost
+spring.data.redis.port=6379
+```
 
 ### Create a Redis class in the Java application
 
@@ -126,13 +134,13 @@ public class RedisSettings{
 }
 ```
 
-Set TTL in the application.properties
+Set TTL in the application.properties 
 
 ```properties
 spring.application.name=azure
-spring.data.redis.host=${spring.data.redis.host}
-spring.data.redis.port=${spring.data.redis.port}
-# refresh cache in 70000ms
+spring.data.redis.host=localhost
+spring.data.redis.port=6379
+# clear cache in 70000ms
 cache.ms.ttl=70000
 ```
 
@@ -151,13 +159,17 @@ import com.github.javafaker.Faker;
 import com.kubernetes_hosted.azure.entitys.Articles;
 import jakarta.annotation.PostConstruct;
 import org.springframework.cache.annotation.Cacheable;
+import org.springframework.stereotype.Component;
 import static com.kubernetes_hosted.azure.RedisSettings.KEYS_ARTICLES;
 
+@Component
 public class ArticlesRepository {
-    // tool intended for simulation, use only in test environment, do not use in production environment
+    // tool intended for simulation, use only in test environment,
+    //  do not use in production environment
     private final Faker DATAMOCK = new Faker();
-    private static final int SIZE_ARTICLES_DB = 95;
     private final List<Articles> BASEDB = new ArrayList<>();
+    private static final int SIZE_ARTICLES_DB = 95;
+
     @PostConstruct
     public void config() {
         for (int i = 0; i < SIZE_ARTICLES_DB; i++) {
@@ -168,20 +180,31 @@ public class ArticlesRepository {
                     .build());
         }    }
 
-    // CHANGED ----------------------------------
     @Cacheable(value = KEYS_ARTICLES)
-    public List<Articles> getAll() {
+    public List<Articles> findAll() {
         try {
-            Thread.sleep(3000);
+            Thread.sleep(4000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         return BASEDB;
     }
-
 }
-
-
-
-
 ```
+### Results
+
+Using postman, test the localhost:8080 endpoint several times.
+
+Note that the time will decrease with each HTTP GET request, this is only possible due to cache memory.
+
+I hope this documentation is useful! 😄
+
+![Redis](imgs/1.png)
+
+![Redis](imgs/2.png)
+
+![Redis](imgs/3.png)
+
+### TO DO - Deploy in Azure Kubernetes
+
+The Kubernetes part will still be done in these days, after this commit.  😴
