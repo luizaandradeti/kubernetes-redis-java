@@ -207,4 +207,4 @@ I hope this documentation is useful! 😄
 
 ### TO DO - Deploy in Azure Kubernetes
 
-The Kubernetes part will still be done in these days, after this commit.😴
+The Kubernetes part will still be done in these days, after this commit.  😴
