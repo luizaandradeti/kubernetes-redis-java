@@ -1,5 +1,4 @@
 package com.kubernetes_hosted.azure.controllers;
-
 import com.kubernetes_hosted.azure.entitys.Articles;
 import com.kubernetes_hosted.azure.repositorys.ArticlesRepository;
 import lombok.RequiredArgsConstructor;
@@ -12,10 +11,10 @@ import java.util.List;
 @RequestMapping("/articles")
 @RequiredArgsConstructor
 public class ArticlesControllers {
+    private final ArticlesRepository repository;
 
-    private  ArticlesRepository articlesRepository;
     @GetMapping
     public List<Articles> findAll() {
-        return articlesRepository.getAll();
+        return repository.findAll();
     }
 }

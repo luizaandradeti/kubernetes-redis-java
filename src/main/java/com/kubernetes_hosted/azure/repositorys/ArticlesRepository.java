@@ -6,14 +6,17 @@ import com.github.javafaker.Faker;
 import com.kubernetes_hosted.azure.entitys.Articles;
 import jakarta.annotation.PostConstruct;
 import org.springframework.cache.annotation.Cacheable;
+import org.springframework.stereotype.Component;
 import static com.kubernetes_hosted.azure.RedisSettings.KEYS_ARTICLES;
 
+@Component
 public class ArticlesRepository {
     // tool intended for simulation, use only in test environment,
     //  do not use in production environment
     private final Faker DATAMOCK = new Faker();
-    private static final int SIZE_ARTICLES_DB = 95;
     private final List<Articles> BASEDB = new ArrayList<>();
+    private static final int SIZE_ARTICLES_DB = 95;
+
     @PostConstruct
     public void config() {
         for (int i = 0; i < SIZE_ARTICLES_DB; i++) {
@@ -25,15 +28,11 @@ public class ArticlesRepository {
         }    }
 
     @Cacheable(value = KEYS_ARTICLES)
-    public List<Articles> getAll() {
+    public List<Articles> findAll() {
         try {
-            Thread.sleep(3000);
+            Thread.sleep(4000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         return BASEDB;
-    }
-
-}
-
-
+    }}
