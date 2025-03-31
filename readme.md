@@ -52,7 +52,6 @@ As per picture below:
 ![Spring Initializr](imgs/spring_initializr.jpeg)
 
 
-
 ![Spring Initializr](imgs/APP.png)
 
 
