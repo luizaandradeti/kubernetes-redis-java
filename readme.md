@@ -51,8 +51,10 @@ As per picture below:
 
 ![Spring Initializr](imgs/spring_initializr.jpeg)
 
+
 [Docker](https://hub.docker.com/_/redis)
 [mvn](https://mvnrepository.com/artifact/com.github.javafaker/javafaker/1.0.2)
+
 
 ![Spring Initializr](imgs/APP.png)
 
