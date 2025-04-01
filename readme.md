@@ -10,11 +10,15 @@ Benefits:
 - Agility, which positively impacts the customer experience;
 - Possibility of using resources to improve other areas of the company, or to improve employee benefits;
 
-Example:
+Use example:
 
 ![exemplo](imgs/exemplo.png)
 
+![exemplo](imgs/exemplo2.png)
+
 https://learn.microsoft.com/pt-br/dotnet/architecture/cloud-native/azure-caching
+
+https://azure.microsoft.com/pt-br/products/cache
 
 - https://azure.microsoft.com/en-us/pricing/calculator/
 - https://azure.microsoft.com/en-us/pricing/details/azure-sql-database/single/
