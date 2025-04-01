@@ -24,10 +24,6 @@ Essential reading:
   
 Use examples images (Microsoft):
 
-Use examples:
-- https://learn.microsoft.com/pt-br/dotnet/architecture/cloud-native/azure-caching
-- https://azure.microsoft.com/pt-br/products/cache
-  
 ![exemplo](imgs/exemplo.png)
 
 ![exemplo](imgs/exemplo2.PNG)
