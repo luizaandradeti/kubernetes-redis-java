@@ -216,17 +216,18 @@ https://azure.microsoft.com/pt-br/pricing/purchase-options/azure-account
  az login
  az upgrade
 
-#Azure Powershell 
+# Azure Powershell 
 # Version query
 $PSVersionTable.PSVersion
+
 # Install Azure Powershell Module
 Install-Module -Name Az -Repository PSGallery -Force
+
 # Connect
 Connect-AzAccount -UseDeviceAuthentication
+
 # Create Resource Group 
 New-AzResourceGroup -Name RGAKSCLI -Location "BrazilSouth"
-# Remove Resource Group (optional)
-# Remove-AzResourceGroup -Name RGAKSCLI
 ```
 
 https://learn.microsoft.com/pt-br/cli/azure/install-azure-cli-windows?pivots=winget
