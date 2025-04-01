@@ -197,7 +197,7 @@ Using postman, test the localhost:8080 endpoint several times.
 
 Note that the time will decrease with each HTTP GET request, this is only possible due to cache memory.
 
-I hope this documentation is useful! 😄
+I hope this documentation is useful! 
 
 ![Redis](imgs/1.png)
 
@@ -207,4 +207,27 @@ I hope this documentation is useful! 😄
 
 ### TO DO - Deploy in Azure Kubernetes
 
-The Kubernetes part will still be done in these days, after this commit.  😴
+- https://azure.microsoft.com/pt-br/pricing/purchase-options/azure-account
+  
+```ps1
+# Azure Cli simple
+ winget install --exact --id Microsoft.AzureCLI
+ az login
+ az upgrade
+
+#Azure Powershell
+# Version query
+$PSVersionTable.PSVersion
+# Install Azure Powershell Module
+Install-Module -Name Az -Repository PSGallery -Force
+# Connect
+Connect-AzAccount -UseDeviceAuthentication
+# Create Resource Group 
+New-AzResourceGroup -Name RGAKSCLI -Location "BrazilSouth"
+# Remove Resource Group (optional)
+Remove-AzResourceGroup -Name RGAKSCLI
+```
+
+https://learn.microsoft.com/pt-br/cli/azure/install-azure-cli-windows?pivots=winget
+
+The Kubernetes part will still be done in these days, after this commit.  
