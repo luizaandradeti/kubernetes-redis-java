@@ -6,16 +6,18 @@
 
 Benefits:
 
-- Reduction of financial waste due to fewer unnecessary requests to the database, located in the cloud provider. 
-- Agility, which positively impacts the customer experience.
+- Reduction of financial waste due to the reduction of unnecessary requests to the microservice or database, located in the provider's cloud;
+- Agility, which positively impacts the customer experience;
+- Possibility of using resources to improve other areas of the company, or to improve employee benefits;
 
-- https://calculator.aws/#/
-- https://aws.amazon.com/pt/rds/pricing/
+![exemplo](imgs/exemplo.png)
+
 - https://azure.microsoft.com/en-us/pricing/calculator/
 - https://azure.microsoft.com/en-us/pricing/details/azure-sql-database/single/
+- https://calculator.aws/#/
+- https://aws.amazon.com/pt/rds/pricing/
 
 ## 🔗 Links
-
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/luiza-andrade-ti/)  [![git](https://img.shields.io/badge/github-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/luizaandradeti/) 
  
 
@@ -207,7 +209,7 @@ Using postman, test the localhost:8080 endpoint several times.
 
 Note that the time will decrease with each HTTP GET request, this is only possible due to cache memory.
 
-I hope this documentation is useful! 😄
+I hope this documentation is useful! 
 
 ![Redis](imgs/1.png)
 
@@ -217,4 +219,30 @@ I hope this documentation is useful! 😄
 
 ### TO DO - Deploy in Azure Kubernetes
 
-The Kubernetes part will still be done in these days, after this commit.  😴
+[![Generic badge](https://img.shields.io/badge/status-developing-yellow.svg)](/#/)
+
+https://azure.microsoft.com/pt-br/pricing/purchase-options/azure-account
+  
+```ps1
+# Azure Cli simple commands
+ winget install --exact --id Microsoft.AzureCLI
+ az login
+ az upgrade
+
+# Azure Powershell 
+# Version query
+$PSVersionTable.PSVersion
+
+# Install Azure Powershell Module
+Install-Module -Name Az -Repository PSGallery -Force
+
+# Connect
+Connect-AzAccount -UseDeviceAuthentication
+
+# Create Resource Group 
+New-AzResourceGroup -Name RGAKSCLI -Location "BrazilSouth"
+```
+
+https://learn.microsoft.com/pt-br/cli/azure/install-azure-cli-windows?pivots=winget
+
+The Kubernetes part will still be done in these days, after this commit.  
