@@ -18,7 +18,7 @@ Benefits:
     </i>
 Essential reading:
 
-- [cache-best-practices-developmenp](https://learn.microsoft.com/pt-br/azure/azure-cache-for-redis/cache-best-practices-development)
+- [cache-best-practices-development](https://learn.microsoft.com/pt-br/azure/azure-cache-for-redis/cache-best-practices-development)
   
 Use examples images:
 - https://learn.microsoft.com/pt-br/dotnet/architecture/cloud-native/azure-caching
