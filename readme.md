@@ -4,6 +4,9 @@
 
 [![Generic badge](https://img.shields.io/badge/status-developing-yellow.svg)](/#/)
 
+Benefits:
+Reduction of financial waste due to fewer unnecessary requests to the database, located in the cloud provider. Agility, which positively impacts the customer experience
+
 ## 🔗 Links
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/luiza-andrade-ti/)  [![git](https://img.shields.io/badge/github-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/luizaandradeti/) 
