@@ -10,11 +10,10 @@ Benefits:
 - Useful for recommendation systems;
 - Horizontal scalability;
 - Reduction of financial waste due to the reduction of unnecessary requests to the microservice or database, located in the provider's cloud. Possibility of using resources to improve other areas of the company;
+
 <i>
-
-            "Caching is a useful technique to save on costs related to read heavy workloads that use more expensive resources such as SQL Server. It's important to use the right technique for your workload. For instance, local caching isn't scalable and requires you to maintain a local cache for each instance of an application. You should weigh the performance impact compared to the potential costs, so that the lower cost of the underlying data source offsets any added costs related to the caching mechanism."(https://docs.aws.amazon.com/prescriptive-guidance/latest/optimize-costs-microsoft-workloads/net-caching.html) 
+>>>>  "Caching is a useful technique to save on costs related to read heavy workloads that use more expensive resources such as SQL Server. It's important to use the right technique for your workload. For instance, local caching isn't scalable and requires you to maintain a local cache for each instance of an application. You should weigh the performance impact compared to the potential costs, so that the lower cost of the underlying data source offsets any added costs related to the caching mechanism."(https://docs.aws.amazon.com/prescriptive-guidance/latest/optimize-costs-microsoft-workloads/net-caching.html)           
 </i>
-
 
 **Essential reading before applying:**
 
