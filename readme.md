@@ -6,8 +6,9 @@
 
 Benefits:
 
-- Reduction of financial waste due to fewer unnecessary requests to the database, located in the cloud provider. 
-- Agility, which positively impacts the customer experience.
+- Reduction of financial waste due to the reduction of unnecessary requests to the microservice or database, located in the provider's cloud;
+- Agility, which positively impacts the customer experience;
+- Possibility of using resources to improve other areas of the company, or to improve employee benefits;
 
 ![exemplo](imgs/exemplo.png)
 
