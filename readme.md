@@ -6,11 +6,21 @@
 
 Benefits:
 
-- Reduction of financial waste due to the reduction of unnecessary requests to the microservice or database, located in the provider's cloud;
 - Agility, which positively impacts the customer experience;
-- Possibility of using resources to improve other areas of the company, or to improve employee benefits;
+- Useful for recommendation systems;
+- Horizontal scalability;
+- Reduction of financial waste due to the reduction of unnecessary requests to the microservice or database, located in the provider's cloud. Possibility of using resources to improve other areas of the company;
+<i>
 
-Use examples:
+            "Caching is a useful technique to save on costs related to read heavy workloads that use more expensive resources such as SQL Server. It's important to use the right technique for your workload. For instance, local caching isn't scalable and requires you to maintain a local cache for each instance of an application. You should weigh the performance impact compared to the potential costs, so that the lower cost of the underlying data source offsets any added costs related to the caching mechanism."(https://docs.aws.amazon.com/prescriptive-guidance/latest/optimize-costs-microsoft-workloads/net-caching.html) 
+</i>
+
+
+**Essential reading before applying:**
+
+- [Useful for recommendation systems](https://learn.microsoft.com/pt-br/azure/azure-cache-for-redis/cache-best-practices-development)
+  
+Use examples images:
 - https://learn.microsoft.com/pt-br/dotnet/architecture/cloud-native/azure-caching
 - https://azure.microsoft.com/pt-br/products/cache
 
@@ -25,7 +35,7 @@ Use examples:
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/luiza-andrade-ti/)  [![git](https://img.shields.io/badge/github-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/luizaandradeti/) 
- 
+
 
 - [Redis with Spring Boot](#redis-with-spring-boot)
 - [Tech Stack](#tech-stack--)
