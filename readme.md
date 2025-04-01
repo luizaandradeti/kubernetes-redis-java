@@ -5,22 +5,20 @@
 Benefitis of Redis:
 
 - Agility, which positively impacts the customer experience;
-- Possibility of using resources to improve other areas of the company;
 - Useful for recommendation systems;
 - Integrates with many programming languages ​​and frameworks;
 - Data replication;
-- Horizontal scalability;
 - Uninterrupted service;
 - Reduction of financial waste due to the reduction of unnecessary requests to the microservice or database, located in the provider's cloud.
-    <i>
+<i>
+    "Many applications use backend databases, such as SQL Server, when applications require frequent access to data. The cost of maintaining these backend services to cope with demand can be high, but you can use an effective caching strategy to reduce load on backend databases by reducing sizing and scaling requirements. This can help you reduce costs and improve the performance of your applications.
     
-   "The cost of maintaining these backend services to cope with demand can be high, but you can use an effective caching strategy to reduce load on backend databases by reducing sizing and scaling requirements. This can help you reduce costs and improve the performance of your applications. Caching is a useful technique to save on costs related to read heavy workloads that use more expensive resources such as SQL Server (https://docs.aws.amazon.com/prescriptive-guidance/latest/optimize-costs-microsoft-workloads/net-caching.html)"
-    
-            
-    </i>
+    Caching is a useful technique to save on costs related to read heavy workloads that use more expensive resources such as SQL Server. (https://docs.aws.amazon.com/prescriptive-guidance/latest/optimize-costs-microsoft-workloads/net-caching.html)"
+
+</i>
 Essential reading:
 
-- [cache-best-practices-development](https://learn.microsoft.com/pt-br/azure/azure-cache-for-redis/cache-best-practices-development)
+- [Cache best practices development](https://learn.microsoft.com/pt-br/azure/azure-cache-for-redis/cache-best-practices-development)
   
 Use examples images (Microsoft):
 
