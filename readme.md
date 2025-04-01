@@ -21,12 +21,12 @@ Essential reading:
 - [cache-best-practices-development](https://learn.microsoft.com/pt-br/azure/azure-cache-for-redis/cache-best-practices-development)
   
 Use examples images:
-- https://learn.microsoft.com/pt-br/dotnet/architecture/cloud-native/azure-caching
-- https://azure.microsoft.com/pt-br/products/cache
 
 ![exemplo](imgs/exemplo.png)
 
 ![exemplo](imgs/exemplo2.PNG)
+
+Source: Microsoft
 
 - https://azure.microsoft.com/en-us/pricing/calculator/
 - https://azure.microsoft.com/en-us/pricing/details/azure-sql-database/single/
