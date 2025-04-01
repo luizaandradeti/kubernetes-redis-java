@@ -211,12 +211,12 @@ I hope this documentation is useful!
 https://azure.microsoft.com/pt-br/pricing/purchase-options/azure-account
   
 ```ps1
-# Azure Cli simple
+# Azure Cli simple commands
  winget install --exact --id Microsoft.AzureCLI
  az login
  az upgrade
 
-#Azure Powershell
+#Azure Powershell 
 # Version query
 $PSVersionTable.PSVersion
 # Install Azure Powershell Module
