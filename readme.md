@@ -14,7 +14,7 @@ Use example:
 
 ![exemplo](imgs/exemplo.png)
 
-![exemplo](imgs/exemplo2.png)
+![exemplo](imgs/exemplo2.PNG)
 
 https://learn.microsoft.com/pt-br/dotnet/architecture/cloud-native/azure-caching
 
