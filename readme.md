@@ -5,7 +5,9 @@
 [![Generic badge](https://img.shields.io/badge/status-developing-yellow.svg)](/#/)
 
 Benefits:
-Reduction of financial waste due to fewer unnecessary requests to the database, located in the cloud provider. Agility, which positively impacts the customer experience
+
+- Reduction of financial waste due to fewer unnecessary requests to the database, located in the cloud provider. 
+- Agility, which positively impacts the customer experience
 
 ## 🔗 Links
 
