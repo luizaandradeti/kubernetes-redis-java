@@ -2,13 +2,27 @@
 
 [![My Skills](https://skillicons.dev/icons?i=azure,java,redis,kubernetes,docker,spring)](https://skillicons.dev)
 
-[![Generic badge](https://img.shields.io/badge/status-developing-yellow.svg)](/#/)
+Benefitis of Redis:
 
-Benefits:
-
-- Reduction of financial waste due to the reduction of unnecessary requests to the microservice or database, located in the provider's cloud;
 - Agility, which positively impacts the customer experience;
-- Possibility of using resources to improve other areas of the company, or to improve employee benefits;
+- Possibility of using resources to improve other areas of the company;
+- Useful for recommendation systems;
+- Integrates with many programming languages ​​and frameworks;
+- Data replication;
+- Horizontal scalability;
+- Uninterrupted service;
+- Reduction of financial waste due to the reduction of unnecessary requests to the microservice or database, located in the provider's cloud.
+    <i>
+    
+   "The cost of maintaining these backend services to cope with demand can be high, but you can use an effective caching strategy to reduce load on backend databases by reducing sizing and scaling requirements. This can help you reduce costs and improve the performance of your applications. Caching is a useful technique to save on costs related to read heavy workloads that use more expensive resources such as SQL Server (https://docs.aws.amazon.com/prescriptive-guidance/latest/optimize-costs-microsoft-workloads/net-caching.html)"
+    
+            
+    </i>
+Essential reading:
+
+- [cache-best-practices-development](https://learn.microsoft.com/pt-br/azure/azure-cache-for-redis/cache-best-practices-development)
+  
+Use examples images (Microsoft):
 
 Use examples:
 - https://learn.microsoft.com/pt-br/dotnet/architecture/cloud-native/azure-caching
@@ -18,6 +32,7 @@ Use examples:
 
 ![exemplo](imgs/exemplo2.PNG)
 
+
 - https://azure.microsoft.com/en-us/pricing/calculator/
 - https://azure.microsoft.com/en-us/pricing/details/azure-sql-database/single/
 - https://calculator.aws/#/
@@ -25,7 +40,7 @@ Use examples:
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/luiza-andrade-ti/)  [![git](https://img.shields.io/badge/github-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/luizaandradeti/) 
- 
+
 
 - [Redis with Spring Boot](#redis-with-spring-boot)
 - [Tech Stack](#tech-stack--)
