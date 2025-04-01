@@ -2,6 +2,17 @@
 
 [![My Skills](https://skillicons.dev/icons?i=azure,java,redis,kubernetes,docker,spring)](https://skillicons.dev)
 
+[![Generic badge](https://img.shields.io/badge/status-developing-yellow.svg)](/#/)
+
+Benefits:
+
+- Reduction of financial waste due to fewer unnecessary requests to the database, located in the cloud provider. 
+- Agility, which positively impacts the customer experience.
+
+- https://calculator.aws/#/
+- https://aws.amazon.com/pt/rds/pricing/
+- https://azure.microsoft.com/en-us/pricing/calculator/
+- https://azure.microsoft.com/en-us/pricing/details/azure-sql-database/single/
 
 ## 🔗 Links
 
