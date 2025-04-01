@@ -16,7 +16,7 @@ Benefits:
     
             
     </i>
-**Essential reading before applying:**
+Essential reading:
 
 - [Useful for recommendation systems](https://learn.microsoft.com/pt-br/azure/azure-cache-for-redis/cache-best-practices-development)
   
