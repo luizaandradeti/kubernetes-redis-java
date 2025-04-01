@@ -9,10 +9,12 @@ Benefits:
 - Reduction of financial waste due to fewer unnecessary requests to the database, located in the cloud provider. 
 - Agility, which positively impacts the customer experience.
 
-- https://calculator.aws/#/
-- https://aws.amazon.com/pt/rds/pricing/
+![exemplo](imgs/exemplo.png)
+
 - https://azure.microsoft.com/en-us/pricing/calculator/
 - https://azure.microsoft.com/en-us/pricing/details/azure-sql-database/single/
+- https://calculator.aws/#/
+- https://aws.amazon.com/pt/rds/pricing/
 
 ## 🔗 Links
 
