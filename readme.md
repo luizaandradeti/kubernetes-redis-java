@@ -2,7 +2,6 @@
 
 [![My Skills](https://skillicons.dev/icons?i=azure,java,redis,kubernetes,docker,spring)](https://skillicons.dev)
 
-[![Generic badge](https://img.shields.io/badge/status-developing-yellow.svg)](/#/)
 
 ## 🔗 Links
 
@@ -207,7 +206,9 @@ I hope this documentation is useful!
 
 ### TO DO - Deploy in Azure Kubernetes
 
-- https://azure.microsoft.com/pt-br/pricing/purchase-options/azure-account
+[![Generic badge](https://img.shields.io/badge/status-developing-yellow.svg)](/#/)
+
+https://azure.microsoft.com/pt-br/pricing/purchase-options/azure-account
   
 ```ps1
 # Azure Cli simple
@@ -225,7 +226,7 @@ Connect-AzAccount -UseDeviceAuthentication
 # Create Resource Group 
 New-AzResourceGroup -Name RGAKSCLI -Location "BrazilSouth"
 # Remove Resource Group (optional)
-Remove-AzResourceGroup -Name RGAKSCLI
+# Remove-AzResourceGroup -Name RGAKSCLI
 ```
 
 https://learn.microsoft.com/pt-br/cli/azure/install-azure-cli-windows?pivots=winget
