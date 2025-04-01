@@ -11,6 +11,7 @@ Benefits:
 - Possibility of using resources to improve other areas of the company, or to improve employee benefits;
 
 Example:
+
 ![exemplo](imgs/exemplo.png)
 
 https://learn.microsoft.com/pt-br/dotnet/architecture/cloud-native/azure-caching
