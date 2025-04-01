@@ -10,7 +10,7 @@ Benefits:
 - Agility, which positively impacts the customer experience;
 - Possibility of using resources to improve other areas of the company, or to improve employee benefits;
 
-Use example:
+Use examples:
 
 ![exemplo](imgs/exemplo.png)
 
