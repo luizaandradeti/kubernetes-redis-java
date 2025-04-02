@@ -279,3 +279,4 @@ docker run -d -p 8080:8080 containerappwebredis.azurecr.io/apiweb:latest
 ````
 
 ![acr](imgs/acr.png)
+![acr](imgs/acr2.png)
