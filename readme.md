@@ -260,8 +260,6 @@ New-AzResourceGroup -Name RGAKSCLI -Location "BrazilSouth"
 
 https://learn.microsoft.com/pt-br/cli/azure/install-azure-cli-windows?pivots=winget
 
-The Kubernetes part will still be done in these days, after this commit.  
-
 
 ````ps1
 az login
@@ -281,5 +279,9 @@ docker push appgeneratorcontainer.azurecr.io/apiweb:v2
 docker pull appgeneratorcontainer.azurecr.io/apiweb:v2#
 docker run -d -p 8080:8080 appgeneratorcontainer.azurecr.io/apiweb:v2
 ````
+
+
+The Kubernetes part will still be done in these days, after this commit.  
+
 
 ![acr](imgs/acr.png)
