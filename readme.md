@@ -20,7 +20,7 @@ Essential reading:
 
 - [Cache best practices development](https://learn.microsoft.com/pt-br/azure/azure-cache-for-redis/cache-best-practices-development)
   
-Use examples images (Microsoft):
+Use examples images (Microsoft, Azure):
 
 ![exemplo](imgs/exemplo.png)
 
