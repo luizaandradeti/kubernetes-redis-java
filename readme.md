@@ -260,6 +260,13 @@ New-AzResourceGroup -Name RGAKSCLI -Location "BrazilSouth"
 
 https://learn.microsoft.com/pt-br/cli/azure/install-azure-cli-windows?pivots=winget
 
+```Dockerfile
+FROM openjdk:17
+COPY ./kubernetes_hosted/azure/AzureApplication/ /tmp
+WORKDIR /tmp
+ENTRYPOINT ["java","AzureApplication"]
+```
+
 
 ````ps1
 az login
@@ -281,7 +288,7 @@ docker run -d -p 8080:8080 appgeneratorcontainer.azurecr.io/apiweb:v2
 ````
 
 
-The Kubernetes part will still be done in these days, after this commit.  
+Kubernetes cluster with Redis is not finished yet
 
 
 ![acr](imgs/acr.png)
