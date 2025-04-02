@@ -278,4 +278,3 @@ docker pull containerappwebredis.azurecr.io/apiweb:latest
 docker run -d -p 8080:8080 containerappwebredis.azurecr.io/apiweb:latest
 ````
 
-![acr](imgs/acr.png)
