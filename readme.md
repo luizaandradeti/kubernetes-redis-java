@@ -260,35 +260,22 @@ New-AzResourceGroup -Name RGAKSCLI -Location "BrazilSouth"
 
 https://learn.microsoft.com/pt-br/cli/azure/install-azure-cli-windows?pivots=winget
 
-```Dockerfile
-FROM openjdk:17
-COPY ./kubernetes_hosted/azure/AzureApplication/ /tmp
-WORKDIR /tmp
-ENTRYPOINT ["java","AzureApplication"]
-```
+The Kubernetes part will still be done in these days, after this commit.  
 
 
 ````ps1
 az login
+az acr create --resource-group RGAKSCLI --name containerappwebredis --sku Basic
 docker build -t apiweb .
 docker images
 docker container ls
 docker run -d -p 8080:8080 apiweb
 docker stop 
-az acr login --name appgeneratorcontainer
-docker tag apiweb appgeneratorcontainer.azurecr.io/apiweb
-docker push appgeneratorcontainer.azurecr.io/apiweb
-docker pull appgeneratorcontainer.azurecr.io/apiweb:latest
-docker run -d -p 8080:8080 appgeneratorcontainer.azurecr.io/apiweb:latest
-docker build -t appgeneratorcontainer.azurecr.io/apiweb .
-docker tag appgeneratorcontainer.azurecr.io/apiweb appgeneratorcontainer.azurecr.io/apiweb:v2
-docker push appgeneratorcontainer.azurecr.io/apiweb:v2
-docker pull appgeneratorcontainer.azurecr.io/apiweb:v2#
-docker run -d -p 8080:8080 appgeneratorcontainer.azurecr.io/apiweb:v2
+az acr login --name containerappwebredis
+docker tag apiweb containerappwebredis.azurecr.io/apiweb
+docker push containerappwebredis.azurecr.io/apiweb
+docker pull containerappwebredis.azurecr.io/apiweb:latest
+docker run -d -p 8080:8080 containerappwebredis.azurecr.io/apiweb:latest
 ````
-
-
-Kubernetes cluster with Redis is not finished yet
-
 
 ![acr](imgs/acr.png)
