@@ -276,11 +276,8 @@ New-AzResourceGroup -Name RGAKSCLI -Location "BrazilSouth"
 
 With the credentials provisioned by the cloud administrator, sign in to your Microsoft account.
 ![logar](imgs/logar.png)
-
-If you missed it, you can easily get this information from Entra ID, with technical leader privileges.
-
+In case you lose it, you can easily recover this information from the administrator/cloud lead/technician who will retrieve it via the Entra ID.
 https://learn.microsoft.com/pt-br/entra/fundamentals/users-reset-password-azure-portal
-
 ![recovery](imgs/recovery.png)
 
 ## Docker build
