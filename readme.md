@@ -306,3 +306,13 @@ docker run -d -p 8080:8080 containerappwebredis.azurecr.io/apiweb:latest
 ![acr](imgs/acr.png)
 
 ![acr](imgs/acr2.png)
+
+**Read more (further reading):**
+- https://azure.microsoft.com/pt-br/support/plans
+- https://azure.microsoft.com/en-us/support/plans
+  
+- https://www.microsoft.com/pt-br/security/business/identity-access/microsoft-entra-id (Azure Active Directory agora é Microsoft Entra ID)
+- https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id (Azure Active Directory is now Microsoft Entra ID.)
+  
+- https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits
+- https://learn.microsoft.com/pt-br/azure/azure-resource-manager/management/azure-subscription-service-limits
