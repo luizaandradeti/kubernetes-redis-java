@@ -260,8 +260,10 @@ New-AzResourceGroup -Name RGAKSCLI -Location "BrazilSouth"
 
 https://learn.microsoft.com/pt-br/cli/azure/install-azure-cli-windows?pivots=winget
 
-The Kubernetes part will still be done in these days, after this commit.  
-
+The official documentation is excellent for understanding the following commands. Read it.
+![doc](imgs/doc.png)
+Let's continue! 
+https://learn.microsoft.com/pt-br/cli/azure/get-started-tutorial-1-prepare-environment?tabs=bash
 
 ````ps1
 az login
