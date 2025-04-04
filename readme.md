@@ -311,6 +311,12 @@ You can also use the graphical (GUI) mode to create:
 ![create](imgs/create.png)
 ![gui](imgs/creategui.png)
 
+
+I think it's better to learn the hardest part first. The reason why large companies use Infrastructure as code is that it increases security, since Terraform, for example, when uploaded to Git, needs to go through the code conveyor belt, and there are security filters on the code conveyor belt. In addition, it is possible to version the improvements.
+
+- https://learn.microsoft.com/pt-br/azure/well-architected/operational-excellence/infrastructure-as-code-design
+- https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/infrastructure-as-code-design
+- 
 **Read more (further reading):**
 - https://azure.microsoft.com/pt-br/support/plans
 - https://azure.microsoft.com/en-us/support/plans
