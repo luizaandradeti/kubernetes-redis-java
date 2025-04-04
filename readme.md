@@ -282,6 +282,7 @@ You can also create an account with a free trial period if you're just learning.
 https://learn.microsoft.com/pt-br/entra/fundamentals/users-reset-password-azure-portal
 ![recovery](imgs/recovery.png)
 
+![recovery2](imgs/recovery2.png)
 https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account
 ![create](imgs/account-create.png)
 ## Docker build
