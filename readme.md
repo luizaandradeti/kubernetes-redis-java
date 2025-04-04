@@ -260,8 +260,9 @@ New-AzResourceGroup -Name RGAKSCLI -Location "BrazilSouth"
 
 https://learn.microsoft.com/pt-br/cli/azure/install-azure-cli-windows?pivots=winget
 
-The Kubernetes part will still be done in these days, after this commit.  
-
+With the credentials provisioned by the cloud administrator, sign in to your Microsoft account.
+![logar](imgs/logar.png)
+Once logged in, you can push the application image.
 
 ````ps1
 az login
@@ -277,8 +278,7 @@ docker push containerappwebredis.azurecr.io/apiweb
 docker pull containerappwebredis.azurecr.io/apiweb:latest
 docker run -d -p 8080:8080 containerappwebredis.azurecr.io/apiweb:latest
 ````
-With the credentials provisioned by the cloud administrator, sign in to your Microsoft account.
-![logar](imgs/logar.png)
+
 ![acr](imgs/acr.png)
 
 ![acr](imgs/acr2.png)
