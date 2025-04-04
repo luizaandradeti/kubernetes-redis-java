@@ -314,7 +314,7 @@ You can also use the graphical (GUI) mode to create:
 
 The reason why large companies use <u>Infrastructure as code is that it increases security</u>, since Terraform, for example, when uploaded to Git, needs to go through the code conveyor belt, and there are security filters on the code conveyor belt. In addition, it is possible to version the improvements.
 
-<i> <font size="1>
+<i> <font size="1">
     "Main design strategies: As discussed in the Supply Chain and Tooling and Process Standardization guides , you should have a strict policy of deploying infrastructure changes (including configuration changes) only through code. You should deploy IaC through your CI/CD (continuous integration and continuous delivery) pipelines. Adopting these policies enforces process consistency for all IaC deployments, minimizes the risk of configuration drift across your environments, and ensures infrastructure consistency across your environments."
 </i> </font>
 
