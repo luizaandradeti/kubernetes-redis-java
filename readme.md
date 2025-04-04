@@ -328,7 +328,7 @@ I think it's better to learn the hardest part first. The reason why large compan
 
 
 ![example](imgs/example.png)
-![pipe](imgs/pipe.png)
+![pipe](imgs/pipe_.png)
 - https://blog.trendmicro.com.br/tornando-pipeline-de-iac-mais-seguro/
 
 
