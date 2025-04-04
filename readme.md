@@ -4,21 +4,19 @@
 
 Benefitis of Redis:
 
+
 - Agility, which positively impacts the customer experience;
 - Useful for recommendation systems;
 - Integrates with many programming languages ​​and frameworks;
 - Data replication;
 - Uninterrupted service;
 - Reduction of financial waste due to the reduction of unnecessary requests to the microservice or database, located in the provider's cloud.
-
-<i>
-<font size="1">
-"Main design strategies
-As discussed in the Supply Chain and Tooling and Process Standardization guides , you should have a strict policy of deploying infrastructure changes (including configuration changes) only through code. You should deploy IaC through your CI/CD (continuous integration and continuous delivery) pipelines. Adopting these policies enforces process consistency for all IaC deployments, minimizes the risk of configuration drift across your environments, and ensures infrastructure consistency across your environments. Additionally, you should standardize your IaC development and deployment tools and processes in a style guide. Recommendations for your style guide include: Prefer declarative tools over imperative ones Declarative tools and their associated files are a better overall option for deploying and managing IaC than imperative tools. Declarative tools use a simpler syntax for their definition files, defining only the desired state of the environment after the deployment is complete. Imperative tools rely on you to define the steps required to get to the desired end state, so the files can be much more complex than declarative files. Declarative definition files also help reduce the technical debt of maintaining imperative code, such as deployment scripts, which can accumulate over time."
-</font>
-</i> 
-
-
+    <i>
+        
+    "Many applications use backend databases, such as SQL Server, when applications require frequent access to data. The cost of maintaining these backend services to cope with demand can be high, but you can use an effective caching strategy to reduce load on backend databases by reducing sizing and scaling requirements. This can help you reduce costs and improve the performance of your applications. Caching is a useful technique to save on costs related to read heavy workloads that use more expensive resources such as SQL Server. (https://docs.aws.amazon.com/prescriptive-guidance/latest/optimize-costs-microsoft-workloads/net-caching.html)"
+            
+                    
+    </i> 
 Essential reading:
 
 - [Best practices development](https://learn.microsoft.com/pt-br/azure/azure-cache-for-redis/cache-best-practices-development)
