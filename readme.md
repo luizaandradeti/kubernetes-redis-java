@@ -48,6 +48,8 @@ Use examples images (Microsoft, Azure):
         + [Cache enable](#cache-enable)
         + [Results](#results)
 - [TO DO - Deploy in Azure Kubernetes](#to-do---deploy-in-azure-kubernetes)
+    * [Connecting to azure cloud via azure cli](#connecting-to-the-azure-cloud-via-azure-cli)
+    * [Docker build](#docker-build)
 
 
 
@@ -238,6 +240,10 @@ I hope this documentation is useful!
 
 https://azure.microsoft.com/pt-br/pricing/purchase-options/azure-account
   
+## Connecting to the Azure Cloud via Azure CLI
+
+**Install Azure Cli:**
+
 ```ps1
 # Azure Cli simple commands
  winget install --exact --id Microsoft.AzureCLI
@@ -250,7 +256,9 @@ $PSVersionTable.PSVersion
 
 # Install Azure Powershell Module
 Install-Module -Name Az -Repository PSGallery -Force
-
+```
+**Connect:**
+```ps1
 # Connect
 Connect-AzAccount -UseDeviceAuthentication
 
@@ -265,6 +273,8 @@ The official documentation is excellent for understanding the following commands
 Let's continue! 
 https://learn.microsoft.com/pt-br/cli/azure/get-started-tutorial-1-prepare-environment?tabs=bash
 
+
+## Docker build
 ````ps1
 az login
 az acr create --resource-group RGAKSCLI --name containerappwebredis --sku Basic
