@@ -279,5 +279,6 @@ docker run -d -p 8080:8080 containerappwebredis.azurecr.io/apiweb:latest
 ````
 
 ![acr](imgs/acr.png)
-![Redis](imgs/logar.png)
+With the credentials provisioned by the cloud administrator, sign in to your Microsoft account.
+![logar](imgs/logar.png)
 ![acr](imgs/acr2.png)
