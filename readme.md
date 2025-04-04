@@ -313,13 +313,14 @@ You can also use the graphical (GUI) mode to create:
 
 
 I think it's better to learn the hardest part first. The reason why large companies use Infrastructure as code is that it increases security, since Terraform, for example, when uploaded to Git, needs to go through the code conveyor belt, and there are security filters on the code conveyor belt. In addition, it is possible to version the improvements.
-    <i>
+<i>
     "Main design strategies
     As discussed in the Supply Chain and Tooling and Process Standardization guides , you should have a strict policy of deploying infrastructure changes (including configuration changes) only through code. You should deploy IaC through your CI/CD (continuous integration and continuous delivery) pipelines. Adopting these policies enforces process consistency for all IaC deployments, minimizes the risk of configuration drift across your environments, and ensures infrastructure consistency across your environments. Additionally, you should standardize your IaC development and deployment tools and processes in a style guide. 
 
     Recommendations for your style guide include: 
     Prefer declarative tools over imperative ones Declarative tools and their associated files are a better overall option for deploying and managing IaC than imperative tools. Declarative tools use a simpler syntax for their definition files, defining only the desired state of the environment after the deployment is complete. Imperative tools rely on you to define the steps required to get to the desired end state, so the files can be much more complex than declarative files. Declarative definition files also help reduce the technical debt of maintaining imperative code, such as deployment scripts, which can accumulate over time."
-    </i>
+    
+</i>
 
 - https://learn.microsoft.com/pt-br/azure/well-architected/operational-excellence/infrastructure-as-code-design
 - https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/infrastructure-as-code-design
