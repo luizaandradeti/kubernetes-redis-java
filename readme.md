@@ -12,7 +12,7 @@ Benefitis of Redis:
 - Reduction of financial waste due to the reduction of unnecessary requests to the microservice or database, located in the provider's cloud.
 
 <i>
-<font size=0>
+<font size="1">
 "Main design strategies
 As discussed in the Supply Chain and Tooling and Process Standardization guides , you should have a strict policy of deploying 
 infrastructure changes (including configuration changes) only through code. You should deploy IaC through your CI/CD (continuous 
