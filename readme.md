@@ -236,8 +236,6 @@ I hope this documentation is useful!
 
 [![Generic badge](https://img.shields.io/badge/status-developing-yellow.svg)](/#/)
 
-https://azure.microsoft.com/pt-br/pricing/purchase-options/azure-account
-  
 ```ps1
 # Azure Cli simple commands
  winget install --exact --id Microsoft.AzureCLI
@@ -266,9 +264,7 @@ With the credentials provisioned by the cloud administrator, sign in to your Mic
 ![logar](imgs/logar.png)
 Once logged in, you can push the application image.
 
-The official documentation is excellent for understanding the following commands. Read it.
-![acr](imgs/docs.png)
-Let's continue!
+
 
 ````ps1
 az login
