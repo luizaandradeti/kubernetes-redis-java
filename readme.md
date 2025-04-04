@@ -276,7 +276,7 @@ New-AzResourceGroup -Name RGAKSCLI -Location "BrazilSouth"
 
 With the credentials provisioned by the cloud administrator, sign in to your Microsoft account.
 ![logar](imgs/logar.png)
-If you don't have access yet, or if you lose it, you can easily recover this information by asking your cloud administrator, who will retrieve it via Entra ID.
+If you don't have access yet, or if you lose it, you can easily recover this information by asking your technology administrator authorized, who will retrieve it via Entra ID.
 You can also create an account with a free trial period if you're just learning. Azure provides that!
 https://learn.microsoft.com/pt-br/entra/fundamentals/users-reset-password-azure-portal
 ![recovery](imgs/recovery.png)
