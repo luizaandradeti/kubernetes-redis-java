@@ -260,9 +260,15 @@ New-AzResourceGroup -Name RGAKSCLI -Location "BrazilSouth"
 
 https://learn.microsoft.com/pt-br/cli/azure/install-azure-cli-windows?pivots=winget
 
+https://learn.microsoft.com/pt-br/cli/azure/get-started-tutorial-1-prepare-environment?tabs=bash
+
 With the credentials provisioned by the cloud administrator, sign in to your Microsoft account.
 ![logar](imgs/logar.png)
 Once logged in, you can push the application image.
+
+The official documentation is excellent for understanding the following commands. Read it.
+![acr](imgs/docs.png)
+Let's continue!
 
 ````ps1
 az login
