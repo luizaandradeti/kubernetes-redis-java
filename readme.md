@@ -283,6 +283,8 @@ https://learn.microsoft.com/pt-br/entra/fundamentals/users-reset-password-azure-
 ![recovery](imgs/recovery.png)
 
 ![recovery2](imgs/recovery2.png)
+
+https://learn.microsoft.com/pt-br/microsoft-365/troubleshoot/sign-in/forgot-sign-in-password
 https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account
 ![create](imgs/account-create.png)
 ## Docker build
