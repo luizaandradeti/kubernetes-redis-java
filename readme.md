@@ -280,9 +280,9 @@ If you don't have access yet, or if you lose it, you can easily recover this inf
 You can also create an account with a free trial period if you're just learning. Azure provides that!
 
 https://learn.microsoft.com/pt-br/entra/fundamentals/users-reset-password-azure-portal
-![recovery](imgs/recovery.png)
+![recovery](imgs/rec0.png)
 
-![recovery2](imgs/recovery2.png)
+![recovery2](imgs/rec1.png)
 
 https://learn.microsoft.com/pt-br/microsoft-365/troubleshoot/sign-in/forgot-sign-in-password
 https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account
