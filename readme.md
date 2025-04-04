@@ -321,7 +321,13 @@ I think it's better to learn the hardest part first. The reason why large compan
 
 - https://learn.microsoft.com/pt-br/azure/well-architected/operational-excellence/infrastructure-as-code-design
 - https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/infrastructure-as-code-design
-- 
+
+
+![example](imgs/example.png)
+![pipe](imgs/pipe.png)
+- https://blog.trendmicro.com.br/tornando-pipeline-de-iac-mais-seguro/
+
+
 **Read more (further reading):**
 - https://azure.microsoft.com/pt-br/support/plans
 - https://azure.microsoft.com/en-us/support/plans
