@@ -278,9 +278,12 @@ With the credentials provisioned by the cloud administrator, sign in to your Mic
 ![logar](imgs/logar.png)
 If you don't have access yet, or if you lose it, you can easily recover this information by asking your technology administrator authorized, who will retrieve it via Entra ID.
 You can also create an account with a free trial period if you're just learning. Azure provides that!
+
 https://learn.microsoft.com/pt-br/entra/fundamentals/users-reset-password-azure-portal
 ![recovery](imgs/recovery.png)
 
+https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account
+![create](imgs/accountcreate.png)
 ## Docker build
 ````ps1
 az login
