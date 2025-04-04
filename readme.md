@@ -305,7 +305,9 @@ docker run -d -p 8080:8080 containerappwebredis.azurecr.io/apiweb:latest
 
 ![acr](imgs/acr.png)
 
-![acr](imgs/acr2.png)
+You can also use the graphical (GUI) mode to create:
+![create](imgs/create.png)
+![gui](imgs/createguipng)
 
 **Read more (further reading):**
 - https://azure.microsoft.com/pt-br/support/plans
@@ -316,3 +318,6 @@ docker run -d -p 8080:8080 containerappwebredis.azurecr.io/apiweb:latest
   
 - https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits
 - https://learn.microsoft.com/pt-br/azure/azure-resource-manager/management/azure-subscription-service-limits
+
+- https://azure.microsoft.com/en-us/products/container-registry
+- https://azure.microsoft.com/pt-br/products/container-registry
