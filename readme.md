@@ -21,7 +21,7 @@ Declarative tools and their associated files are a better overall option for dep
 </i> 
 Essential reading:
 
-- [Cache best practices development](https://learn.microsoft.com/pt-br/azure/azure-cache-for-redis/cache-best-practices-development)
+- [Best practices development](https://learn.microsoft.com/pt-br/azure/azure-cache-for-redis/cache-best-practices-development)
   
 Use examples images (Microsoft, Azure):
 
