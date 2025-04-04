@@ -48,6 +48,8 @@ Use examples images (Microsoft, Azure):
         + [Cache enable](#cache-enable)
         + [Results](#results)
 - [TO DO - Deploy in Azure Kubernetes](#to-do---deploy-in-azure-kubernetes)
+    * [Connecting to azure cloud via azure cli](#connecting-to-the-azure-cloud-via-azure-cli)
+    * [Docker build](#docker-build)
 
 
 
@@ -236,11 +238,17 @@ I hope this documentation is useful!
 
 [![Generic badge](https://img.shields.io/badge/status-developing-yellow.svg)](/#/)
 
+https://azure.microsoft.com/pt-br/pricing/purchase-options/azure-account
+
+## Connecting to the Azure Cloud via Azure CLI
+
+**Install Azure Cli:**
+
 ```ps1
 # Azure Cli simple commands
- winget install --exact --id Microsoft.AzureCLI
- az login
- az upgrade
+winget install --exact --id Microsoft.AzureCLI
+az login
+az upgrade
 
 # Azure Powershell 
 # Version query
@@ -248,7 +256,9 @@ $PSVersionTable.PSVersion
 
 # Install Azure Powershell Module
 Install-Module -Name Az -Repository PSGallery -Force
-
+```
+**Connect:**
+```ps1
 # Connect
 Connect-AzAccount -UseDeviceAuthentication
 
@@ -258,14 +268,13 @@ New-AzResourceGroup -Name RGAKSCLI -Location "BrazilSouth"
 
 https://learn.microsoft.com/pt-br/cli/azure/install-azure-cli-windows?pivots=winget
 
+The official documentation is excellent for understanding the following commands. Read it.
+![doc](imgs/doc.png)
+Let's continue! 
 https://learn.microsoft.com/pt-br/cli/azure/get-started-tutorial-1-prepare-environment?tabs=bash
 
-With the credentials provisioned by the cloud administrator, sign in to your Microsoft account.
-![logar](imgs/logar.png)
-Once logged in, you can push the application image.
 
-
-
+## Docker build
 ````ps1
 az login
 az acr create --resource-group RGAKSCLI --name containerappwebredis --sku Basic
@@ -280,7 +289,8 @@ docker push containerappwebredis.azurecr.io/apiweb
 docker pull containerappwebredis.azurecr.io/apiweb:latest
 docker run -d -p 8080:8080 containerappwebredis.azurecr.io/apiweb:latest
 ````
-
+With the credentials provisioned by the cloud administrator, sign in to your Microsoft account.
+![logar](imgs/logar.png)
 ![acr](imgs/acr.png)
 
 ![acr](imgs/acr2.png)
