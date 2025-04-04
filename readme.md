@@ -239,16 +239,16 @@ I hope this documentation is useful!
 [![Generic badge](https://img.shields.io/badge/status-developing-yellow.svg)](/#/)
 
 https://azure.microsoft.com/pt-br/pricing/purchase-options/azure-account
-  
+
 ## Connecting to the Azure Cloud via Azure CLI
 
 **Install Azure Cli:**
 
 ```ps1
 # Azure Cli simple commands
- winget install --exact --id Microsoft.AzureCLI
- az login
- az upgrade
+winget install --exact --id Microsoft.AzureCLI
+az login
+az upgrade
 
 # Azure Powershell 
 # Version query
