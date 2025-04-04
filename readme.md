@@ -273,6 +273,8 @@ The official documentation is excellent for understanding the following commands
 Let's continue! 
 https://learn.microsoft.com/pt-br/cli/azure/get-started-tutorial-1-prepare-environment?tabs=bash
 
+With the credentials provisioned by the cloud administrator, sign in to your Microsoft account.
+![logar](imgs/logar.png)
 
 ## Docker build
 ````ps1
@@ -289,8 +291,7 @@ docker push containerappwebredis.azurecr.io/apiweb
 docker pull containerappwebredis.azurecr.io/apiweb:latest
 docker run -d -p 8080:8080 containerappwebredis.azurecr.io/apiweb:latest
 ````
-With the credentials provisioned by the cloud administrator, sign in to your Microsoft account.
-![logar](imgs/logar.png)
+
 ![acr](imgs/acr.png)
 
 ![acr](imgs/acr2.png)
