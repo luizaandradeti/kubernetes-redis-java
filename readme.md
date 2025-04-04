@@ -257,6 +257,14 @@ $PSVersionTable.PSVersion
 # Install Azure Powershell Module
 Install-Module -Name Az -Repository PSGallery -Force
 ```
+
+https://learn.microsoft.com/pt-br/cli/azure/install-azure-cli-windows?pivots=winget
+
+The official documentation is excellent for understanding the following commands. Read it.
+![doc](imgs/doc.png)
+Let's continue! 
+https://learn.microsoft.com/pt-br/cli/azure/get-started-tutorial-1-prepare-environment?tabs=bash
+
 **Connect:**
 ```ps1
 # Connect
@@ -266,15 +274,14 @@ Connect-AzAccount -UseDeviceAuthentication
 New-AzResourceGroup -Name RGAKSCLI -Location "BrazilSouth"
 ```
 
-https://learn.microsoft.com/pt-br/cli/azure/install-azure-cli-windows?pivots=winget
-
-The official documentation is excellent for understanding the following commands. Read it.
-![doc](imgs/doc.png)
-Let's continue! 
-https://learn.microsoft.com/pt-br/cli/azure/get-started-tutorial-1-prepare-environment?tabs=bash
-
 With the credentials provisioned by the cloud administrator, sign in to your Microsoft account.
 ![logar](imgs/logar.png)
+
+If you missed it, you can easily get this information from Entra ID, with technical leader privileges.
+
+https://learn.microsoft.com/pt-br/entra/fundamentals/users-reset-password-azure-portal
+
+![recovery](imgs/recovery.png)
 
 ## Docker build
 ````ps1
